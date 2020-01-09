@@ -1,0 +1,221 @@
+
+:root{
+    --white:#ffff;
+}
+.column{
+    display:flex;
+    flex-direction: flex;
+    min-height: 400px;
+    text-align: center;
+}
+
+.puntacana{
+    width: 50%;
+    background-image: url(../img/dominicanrepublic.jpg);
+    padding-top: 10%;
+    padding-right: 10%;
+    padding-left: 10%;
+    text-align: center;
+}
+.titulopuntacana{
+    font-weight: bolder;
+    font-size: 30px;
+  
+}
+.textopuntacana{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.nuevazelanda{
+    width: 50%;
+    background-image: url(../img/nuevazelanda.jpg);
+    padding-top: 10%;
+    padding-right: 10%;
+    padding-left: 10%;
+    text-align: center;
+}
+
+.titulonuevazelanda{
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.textonuevazelanda{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+.paris{
+    text-align: center;
+    padding-right: 10%;
+    padding-left: 20%;
+    padding-top: 10%; 
+    background-image: url(../img/paris.jpg);
+    min-height: 600px;
+    font-size: 30px;
+}
+
+.paristexto{
+    margin-top: 25px;
+    font-size: 25px;
+}
+.button{
+    text-align: center;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid;
+    padding: 8px;
+    font-size: var(--sizebuttons);
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.displaycolumn{
+    display:flex;
+} 
+    
+
+.display{
+    display:flex;
+    width:100%
+
+}
+
+.banner3{
+    display: flex;
+    flex-direction: inherit;
+    min-width: 50%;
+    height: 300px;
+    padding: 20px;
+}
+.titulos{
+    font-size: var(--sizeheading3);
+    color: var(--darktext);
+    font-weight: bolder;
+    margin-left: 20px;  
+    margin-top: 25px;
+}
+.textos{
+    font-size: var(--sizebody);
+    color: var(--darktext);
+    font-weight: normal;
+    margin-top: 15px;
+    line-height: 25px;
+}
+
+.contacto{
+    width: 50%;
+    background-color: black;
+    padding-top: 10%;
+    padding-right: 10%;
+    padding-left: 10%;
+    text-align: center;
+}
+.titulocontacto{
+    font-weight: bolder;
+    font-size: 30px;
+    color: white
+  
+}
+.textocontacto{
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+    
+    
+
+}
+
+#icons{
+    margin-inline-end: 20px;
+}
+
+.cuenta{
+    width: 50%;
+    background-color:black;
+    padding-top: 10%;
+    padding-right: 10%;
+    padding-left:10%;
+    text-align: center;
+}
+
+.titulocuenta{
+    font-weight: bolder;
+    font-size: 30px;
+    color: white
+}
+
+.textocuenta{
+    font-size: 20px;
+    margin-top: 20px;
+    color: white
+}
+
+@media (max-width:650px){
+    .column{
+        display:flex;
+        flex-direction: column;
+        min-height: 400px;
+        text-align: center;
+    }
+    .puntacana, .nuevazelanda, .paris{
+        width: 100%;
+        min-height:350px;
+        padding-top: 25%;
+    }
+
+     .paris{
+        width: 100%;
+        min-height:450px;
+        padding-top: 15%;
+        margin-bottom: 80px;
+    }
+
+    .cuenta, .contacto{
+        width: 100%;
+        min-height:250px;
+        padding-top: 25%;
+        padding-bottom: 15%;
+    }
+
+    .display{
+        display:flex;
+        flex-direction: column;  
+    }
+    .banner3{
+        display: flex;
+        flex-direction: inherit;
+        height: 400px;
+        align-content: center;
+        text-align: center;
+    }
+    #icons{
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+    .co{
+        display:none;
+    }
+
+    .button{
+        text-align: center;
+        color: var(--white);
+        margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 2px solid;
+        border-color: var(--white);
+        padding: 8px;
+        font-size: var(--sizebuttons);
+        font-size: 15px;
+        font-weight: 700;
+    }
+
+}
+
+
+

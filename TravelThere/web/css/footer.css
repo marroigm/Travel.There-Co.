@@ -1,0 +1,23 @@
+.footer{
+    background-color: grey;
+    color:black;
+    max-height: 300px;
+    width: auto;
+   padding-left: 20px;
+}
+
+
+
+
+.rrss{
+    margin-top:5px;
+}
+
+.privacidad{
+    text-align: right;
+    margin-right: 50px;
+    line-height: 30px;
+    padding-bottom: 25px;
+}
+
+
